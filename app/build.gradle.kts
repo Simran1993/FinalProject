@@ -30,6 +30,13 @@ android {
 
 dependencies {
 
+    implementation ("com.android.volley:volley:1.2.1")
+
+    val room_version = ("2.6.1")
+    implementation ("androidx.room:room-runtime:$room_version")
+    annotationProcessor ("androidx.room:room-compiler:$room_version")
+
+    implementation("androidx.mediarouter:mediarouter:1.7.0")
     val room_version = "2.6.1"
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.11.0")
@@ -43,4 +50,11 @@ dependencies {
     annotationProcessor("androidx.room:room-compiler:$room_version")
     implementation ("com.github.bumptech.glide:glide:4.13.0")
     annotationProcessor ("com.github.bumptech.glide:compiler:4.13.0")
+    implementation ("com.android.volley:volley:1.2.0")
+    implementation ("androidx.room:room-runtime:2.2.5")
+    annotationProcessor ("androidx.room:room-compiler:2.2.5")
+    implementation ("androidx.lifecycle:lifecycle-livedata-ktx:2.2.0")
+    implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0")
+    implementation ("androidx.recyclerview:recyclerview:1.1.0")
+    implementation ("com.google.code.gson:gson:2.8.6")
 }
