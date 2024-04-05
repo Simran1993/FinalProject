@@ -166,7 +166,7 @@ public class DictionaryMainActivity extends AppCompatActivity {
         searchEntry.searchTerm = searchTerm;
         searchEntry.definitions = definitionsJson;
 
-        AppDatabase db = AppDatabase.getDatabase(this);
+        DictAppDatabase db = DictAppDatabase.getDatabase(this);
         new Thread(() -> db.searchEntryDao().insert(searchEntry)).start(); // Save to database in a background thread
 
         //Toast.makeText(this, "Search term saved: " + searchTerm, Toast.LENGTH_SHORT).show();

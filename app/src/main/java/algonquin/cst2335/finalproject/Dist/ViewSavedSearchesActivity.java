@@ -59,7 +59,7 @@ public class ViewSavedSearchesActivity extends AppCompatActivity {
     }
 
     private void loadSearchHistory() {
-        AppDatabase db = AppDatabase.getDatabase(getApplicationContext());
+        DictAppDatabase db = DictAppDatabase.getDatabase(getApplicationContext());
         new Thread(() -> {
             List<SearchEntry> entries = db.searchEntryDao().getAllSync();
             runOnUiThread(() -> {
@@ -81,7 +81,7 @@ public class ViewSavedSearchesActivity extends AppCompatActivity {
                         adapter.notifyDataSetChanged();
 
                         // Delete search history from the database
-                        AppDatabase db = AppDatabase.getDatabase(getApplicationContext());
+                        DictAppDatabase db = DictAppDatabase.getDatabase(getApplicationContext());
                         new Thread(() -> {
                             db.searchEntryDao().deleteAll();
                         }).start();

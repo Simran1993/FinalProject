@@ -8,17 +8,17 @@ import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
 @Database(entities = {SearchEntry.class}, version = 1, exportSchema = false)
-public abstract class AppDatabase extends RoomDatabase {
+public abstract class DictAppDatabase extends RoomDatabase {
     public abstract SearchEntryDao searchEntryDao();
 
-    private static volatile AppDatabase INSTANCE;
+    private static volatile DictAppDatabase INSTANCE;
 
-    static AppDatabase getDatabase(final Context context) {
+    static DictAppDatabase getDatabase(final Context context) {
         if (INSTANCE == null) {
-            synchronized (AppDatabase.class) {
+            synchronized (DictAppDatabase.class) {
                 if (INSTANCE == null) {
                     INSTANCE = Room.databaseBuilder(context.getApplicationContext(),
-                                    AppDatabase.class, "search_database")
+                                    DictAppDatabase.class, "search_database")
                             .build();
                 }
             }
