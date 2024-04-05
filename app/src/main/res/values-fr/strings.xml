@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="save_song">Favori</string>
+    <string name="duration">Durée</string>
+    <string name="album_name">Nom de l\'album</string>
+    <string name="artist_name">Nom de l\'artiste</string>
+    <string name="song_title">Titre de la chanson</string>
+    <string name="enter_search_query">Rechercher une chanson</string>
+    <string name="search">Rechercher</string>
+    <string name="search_artists">Rechercher des artistes</string>
+    <string name="help">Pour commencer à utiliser l\'application de bibliothèque musicale, commencez par parcourir sa collection de chansons. Vous pouvez sélectionner n\'importe quelle chanson pour voir ses détails, tels que le titre, l\'artiste et la durée. Si vous souhaitez enregistrer une chanson comme favori, appuyez simplement sur le bouton \"Enregistrer\" tout en visualisant ses détails. Pour revisiter vos favoris enregistrés, accédez à la section \"Chansons favorites\" disponible dans le menu principal.</string>
+    <string name="song_selected">Chanson sélectionnée :</string>
+    <string name="ok">OK</string>
+    <string name="delete">Supprimer</string>
+    <string name="app_name">Deezer Chanson</string>
+</resources>
