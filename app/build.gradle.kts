@@ -29,7 +29,11 @@ android {
 }
 
 dependencies {
-
+    val room_version = "2.5.2"
+    implementation ("androidx.room:room-runtime:$room_version")
+    annotationProcessor ("androidx.room:room-compiler:$room_version")
+    implementation ("com.android.volley:volley:1.2.1")
+    implementation("androidx.room:room-common:2.6.1")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.11.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
