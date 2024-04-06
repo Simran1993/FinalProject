@@ -29,4 +29,18 @@
         android:title="Search History"
         app:showAsAction="never" />
 
+
+    <item android:id="@+id/action_more_Sun"
+        android:title="sunrise application"
+        android:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/action_more_Song"
+        android:title="DeezerSongSearch"
+        android:showAsAction="ifRoom"/>
+
+
+    <item android:id="@+id/action_more_Dict"
+        android:title="Dictionary"
+        android:showAsAction="ifRoom"/>
+
 </menu>

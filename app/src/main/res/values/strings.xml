@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FinalProject</string>
+    <string name="app_name1">FinalProject</string>
     <string name="enter_latitude">Enter Latitude</string>
     <string name="enter_longitude">Enter longitude</string>
     <string name="get_sunrise_sunset">Get time</string>
@@ -18,6 +18,6 @@
     <string name="song_selected">"Song selected: "</string>
     <string name="ok">OK</string>
     <string name="delete">Delete</string>
-    <string name="app_name">Song Search</string>
+    <string name="app_name">Final Work</string>
 
 </resources>
