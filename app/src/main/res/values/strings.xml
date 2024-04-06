@@ -19,5 +19,6 @@
     <string name="ok">OK</string>
     <string name="delete">Delete</string>
     <string name="app_name">Final Work</string>
+    <string name="Main_layout_message">Apps can be found in Toolbar</string>
 
 </resources>
